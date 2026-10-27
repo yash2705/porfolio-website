@@ -18,13 +18,12 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
-        Currently pursuing a Master’s degree in Computer Science at North Carolina State University, I specialize in developing high-impact software, architecting scalable solutions, and solving complex problems. My core competencies lie in web development across frameworks like Angular and React, and backend technologies such as Django and Express.js. 
-      </p>
-
-      <p>
-        I am deeply passionate about technology and enthusiastic about exploring opportunities that allow me to leverage my skills across Blockchain, Software Engineering, DevOps and Data Science. I am keen to contribute to innovative projects and collaborate with teams focused on creating solutions that have a meaningful impact.
-      </p>
+        <p className="mb-3">
+          I am a Software Development Engineer at Amazon Web Services (AWS) with a Master’s degree in Computer Science from North Carolina State University. I enjoy solving complex problems and building reliable, scalable software across backend engineering, full-stack development, and cloud computing.
+        </p>
+        <p>
+          Outside of work, I enjoy exploring new technologies, playing chess, following Formula 1, and discovering the outdoors through hikes and treks.
+        </p>
     </motion.section>
   );
 }

@@ -78,17 +78,17 @@ export const projectsData = [
   {
     title: "Distributed Key-Value Store with Consistent Hashing",
     description: "Built a horizontally scalable Java key-value store using consistent hashing and gRPC, with replication, leader election, and automatic rebalancing. Stress-tested the system at 5,000 concurrent requests.",
-    tags: ["Java", "gRPC", "Consistent Hashing", "Kubernetes"],
+    tags: ["Java", "gRPC", "Kubernetes"],
   },
   {
     title: "Distributed Transaction Manager",
     description: "Implemented atomic multi-node writes across PostgreSQL shards using two-phase commit, ZooKeeper-based leader election, and crash recovery. Added a Kafka-backed write-ahead log with replayable commits and tested failure scenarios at 50,000+ TPS.",
-    tags: ["Java", "2PC", "ZooKeeper", "Kafka", "PostgreSQL"],
+    tags: ["Java", "ZooKeeper", "Kafka", "PostgreSQL"],
   },
   {
     title: "POSIX-Compliant File System",
     description: "Implemented a C++ file system with FUSE, inodes, block allocation, journaling, and crash recovery. Added client-side caching, lazy writes, and multithreaded I/O, achieving 3x the throughput of a baseline NFS-style prototype.",
-    tags: ["C++", "FUSE", "File Systems", "Concurrency"],
+    tags: ["C++", "FUSE", "File Systems"],
   },
 ] as const;
 
